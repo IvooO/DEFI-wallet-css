@@ -1,0 +1,742 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <div class="DEFI-app">
+
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      
+
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <i class="bi bi-wallet2"></i>
+        <h1 class="header-logo">DEFI wallet</h1>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      </ul>
+    </header>
+
+
+
+
+
+    <header class="header">
+      
+      <div class="header-content">
+
+   
+            <!-- <h1 class="content-header-title">Hello Ivo, <br />you have<small> €2000</small></h1>
+            <div class="content-header-info">
+              Available funds to invest: €435.00 <a href="#" class="link">Invest now</a>
+            </div>
+          </div> -->
+         
+      
+
+
+
+
+        <div class="header-search">
+          <input type="text" class="search-field" placeholder="Search..." />
+          <button type="submit" class="search-btn">
+            <i class="ph-magnifying-glass-bold"></i>
+          </button>
+        </div>
+        <button class="header-avatar">
+          <span class="header-avatar-img"></span>
+          <span class="header-avatar-name">IvooO</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Sidebar left -->
+
+   
+
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+
+  
+      <nav class="nav">
+        <ul class="tabs">
+          <li class="tab">
+            <button class="tab-btn tab-btn--active">
+              <i class="ph-lightbulb-bold"></i>
+              <span class="tab-btn-title">Overview</span>
+            </button>
+          </li>
+          <li class="tab">
+            <button class="tab-btn">
+              <i class="ph-arrows-left-right-bold"></i>
+              <span class="tab-btn-title">Transactions</span>
+            </button>
+          </li>
+          <li class="tab">
+            <button class="tab-btn">
+              <i class="ph-credit-card-bold"></i>
+              <span class="tab-btn-title">Bugdets</span>
+            </button>
+          </li>
+          <li class="tab">
+            <button class="tab-btn">
+              <i class="ph-arrows-counter-clockwise-bold"></i>
+              <span class="tab-btn-title">Subscriptions</span>
+            </button>
+          </li>
+          <li class="tab">
+            <button class="tab-btn">
+              <i class="ph-bank-bold"></i>
+              <span class="tab-btn-title">Accounts</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+
+</div>
+
+  <!-- Sidebar left end -->
+
+
+
+   <!-- Mainbar -->
+   <br>
+
+   <div id="middlebar" class="col-8" >
+    <div class="content">
+
+     
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://s32659.pcdn.co/wp-content/uploads/2021/05/bic_artwork_defi.jpg.optimal.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.protocol.com/media-library/someone-pays-with-their-phone-via-square.png?id=29180844&width=1245&quality=85&coordinates=0%2C0%2C0%2C0&height=700" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://forkast.news/wp-content/uploads/2020/12/Finance-Graph-Me-Pixels.png.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   
+    <br>
+
+    <p class="lead bg-light text-light p-2"></p>
+
+
+    <!-- First accordion -->
+
+    <header class="overview-header">
+      <h2 class="overview-header-title">Transactions to review<span>7</span></h2>
+      <a href="#" class="link">View all</a>
+    </header>
+
+    <div class="overview-body">
+      <div class="summary">
+        <h3 class="summary-date">June 03, 2022</h3>
+        <span class="summary-amount">+€87.01</span>
+      </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+           
+ <div class="list">
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGeyQ2eIBSSYqsumzXRftK8ZNCGWPR-ZRDEg&usqp=CAU" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">Ancienne Belgique</h4>
+                      <a href="#" class="list-item-company-hashtag">#Music</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value">
+                        <i class="ph-arrows-clockwise-bold"></i>€90.99
+                      </span>
+                      <time class="list-item-transaction-time" datetime="17:00">5:00pm</time>
+                    </div>
+
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">2 tickets for Couleur Café on Sunday 26 June</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            
+            <div class="list-item">
+              <div class="list-item-company">
+                <figure class="list-item-company-logo">
+                  <img src="https://play-lh.googleusercontent.com/6dnM6NJW_-Dhi6qJbVYuXmqi_wKSSDNejbtdiK5WuWTeBgRxN0x5duihq_7HtjhrmA" />
+                </figure>
+                <div class="list-item-company-info">
+                  <h4 class="list-item-company-name">MIVB</h4>
+                  <a href="#" class="list-item-company-hashtag">#Transport</a>
+                </div>
+              </div>
+              <div class="list-item-transaction">
+                <div class="list-item-transaction-values">
+                  <span class="list-item-transaction-value"> -€1.50
+                  </span>
+                  <time class="list-item-transaction-time" datetime="16:40">4:40pm</time>
+                </div>
+
+            
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <div class="list-item">
+              <div class="list-item-company">
+                <figure class="list-item-company-logo list-item-company-logo--square">
+                  <img src="data:image/png;base64,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" />
+                </figure>
+                <div class="list-item-company-info">
+                  <h4 class="list-item-company-name">Delhaize</h4>
+                  <a href="#" class="list-item-company-hashtag">#Groceries</a>
+                </div>
+              </div>
+              <div class="list-item-transaction">
+                <div class="list-item-transaction-values">
+                  <span class="list-item-transaction-value"><i class="ph-arrows-clockwise-bold"></i> -€9.99
+                  </span>
+                  <time class="list-item-transaction-time" datetime="2020-09-26T17:00:00">June 26, 2020 at 5:00pm</time>
+                </div>
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+        </div>
+      </div>
+    </div>
+    <!-- end first accordion -->
+    <br>
+    <p class="lead bg-light text-light p-2"></p>
+    <br>
+
+      <!-- second accordion -->
+
+      <header class="overview-header">
+        <h2 class="overview-header-title">Transactions to review<span>7</span></h2>
+        <a href="#" class="link">View all</a>
+      </header>
+  
+      <div class="overview-body">
+        <div class="summary">
+          <h3 class="summary-date">June 02, 2022</h3>
+          <span class="summary-amount">+€47.01</span>
+        </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+             
+   <div class="list">
+                  <div class="list-item">
+                    <div class="list-item-company">
+                      <figure class="list-item-company-logo">
+                        <img src="https://assets.codepen.io/285131/spotify-logo.svg" />
+                      </figure>
+                      <div class="list-item-company-info">
+                        <h4 class="list-item-company-name">Spotify</h4>
+                        <a href="#" class="list-item-company-hashtag">#Music</a>
+                      </div>
+                    </div>
+                    <div class="list-item-transaction">
+                      <div class="list-item-transaction-values">
+                        <span class="list-item-transaction-value">
+                          <i class="ph-arrows-clockwise-bold"></i>€9.99
+                        </span>
+                        <time class="list-item-transaction-time" datetime="17:00">5:00pm</time>
+                      </div>
+  
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              
+              <div class="list-item">
+                <div class="list-item-company">
+                  <figure class="list-item-company-logo">
+                    <img src="https://assets.codepen.io/285131/whole-foods-logo.png" />
+                  </figure>
+                  <div class="list-item-company-info">
+                    <h4 class="list-item-company-name">Whole Foods</h4>
+                    <a href="#" class="list-item-company-hashtag">#Groceries</a>
+                  </div>
+                </div>
+                <div class="list-item-transaction">
+                  <div class="list-item-transaction-values">
+                    <span class="list-item-transaction-value"> -$150.56
+                    </span>
+                    <time class="list-item-transaction-time" datetime="16:40">4:40pm</time>
+                  </div>
+  
+              
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <div class="list-item">
+                <div class="list-item-company">
+                  <figure class="list-item-company-logo list-item-company-logo--square">
+                    <img src="https://assets.codepen.io/285131/apple-music.png" />
+                  </figure>
+                  <div class="list-item-company-info">
+                    <h4 class="list-item-company-name">Apple Music</h4>
+                    <a href="#" class="list-item-company-hashtag">#Music</a>
+                  </div>
+                </div>
+                <div class="list-item-transaction">
+                  <div class="list-item-transaction-values">
+                    <span class="list-item-transaction-value"><i class="ph-arrows-clockwise-bold"></i> -$9.99
+                    </span>
+                    <time class="list-item-transaction-time" datetime="2020-09-26T17:00:00">September 26, 2020 at 5:00pm</time>
+                  </div>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+      <!-- end second accordion -->
+      <br>
+      <p class="lead bg-light text-light p-2"></p>
+      <br>
+
+
+        <!-- First accordion -->
+
+    <header class="overview-header">
+      <h2 class="overview-header-title">Transactions to review<span>7</span></h2>
+      <a href="#" class="link">View all</a>
+    </header>
+
+    <div class="overview-body">
+      <div class="summary">
+        <h3 class="summary-date">June 03, 2022</h3>
+        <span class="summary-amount">+€87.01</span>
+      </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+           
+ <div class="list">
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo">
+                      <img src="https://assets.codepen.io/285131/spotify-logo.svg" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">Spotify</h4>
+                      <a href="#" class="list-item-company-hashtag">#Music</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value">
+                        <i class="ph-arrows-clockwise-bold"></i>€9.99
+                      </span>
+                      <time class="list-item-transaction-time" datetime="17:00">5:00pm</time>
+                    </div>
+
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            
+            <div class="list-item">
+              <div class="list-item-company">
+                <figure class="list-item-company-logo">
+                  <img src="https://assets.codepen.io/285131/whole-foods-logo.png" />
+                </figure>
+                <div class="list-item-company-info">
+                  <h4 class="list-item-company-name">Whole Foods</h4>
+                  <a href="#" class="list-item-company-hashtag">#Groceries</a>
+                </div>
+              </div>
+              <div class="list-item-transaction">
+                <div class="list-item-transaction-values">
+                  <span class="list-item-transaction-value"> -$150.56
+                  </span>
+                  <time class="list-item-transaction-time" datetime="16:40">4:40pm</time>
+                </div>
+
+            
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <div class="list-item">
+              <div class="list-item-company">
+                <figure class="list-item-company-logo list-item-company-logo--square">
+                  <img src="https://assets.codepen.io/285131/apple-music.png" />
+                </figure>
+                <div class="list-item-company-info">
+                  <h4 class="list-item-company-name">Apple Music</h4>
+                  <a href="#" class="list-item-company-hashtag">#Music</a>
+                </div>
+              </div>
+              <div class="list-item-transaction">
+                <div class="list-item-transaction-values">
+                  <span class="list-item-transaction-value"><i class="ph-arrows-clockwise-bold"></i> -$9.99
+                  </span>
+                  <time class="list-item-transaction-time" datetime="2020-09-26T17:00:00">September 26, 2020 at 5:00pm</time>
+                </div>
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+        </div>
+      </div>
+    </div>
+    <!-- end first accordion -->
+  
+
+<!-- 
+  
+        <div class="content-body">
+          <section class="overview">
+            <header class="overview-header">
+              <h2 class="overview-header-title">Transactions to review<span>7</span></h2>
+              <a href="#" class="link">View all</a>
+            </header>
+            <div class="overview-body">
+              <div class="summary">
+                <h3 class="summary-date">Sept 09, 2020</h3>
+                <span class="summary-amount">+$87.01</span>
+              </div>
+              <div class="list">
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo">
+                      <img src="https://assets.codepen.io/285131/spotify-logo.svg" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">Spotify</h4>
+                      <a href="#" class="list-item-company-hashtag">#Music</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value">
+                        <i class="ph-arrows-clockwise-bold"></i>-$9.99
+                      </span>
+                      <time class="list-item-transaction-time" datetime="17:00">5:00pm</time>
+                    </div>
+                    <button class="list-item-transaction-action">
+                      <i class="ph-caret-down-bold"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo">
+                      <img src="https://assets.codepen.io/285131/megan.jpg" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">E-Transfer from Megan Primeau</h4>
+                      <a href="#" class="list-item-company-hashtag">#Income</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value list-item-transaction-value--positive"> +$120.00
+                      </span>
+                      <time class="list-item-transaction-time" datetime="11:30">11:30am</time>
+                    </div>
+                    <button class="list-item-transaction-action">
+                      <i class="ph-caret-down-bold"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo">
+                      <img src="https://assets.codepen.io/285131/starbucks-logo.svg" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">Starbucks</h4>
+                      <a href="#" class="list-item-company-hashtag">#Food</a>
+                      <a href="#" class="list-item-company-hashtag">#Coffee</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value"> -$6.50
+                      </span>
+                      <time class="list-item-transaction-time" datetime="11:23">11:23am</time>
+                    </div>
+                    <button class="list-item-transaction-action">
+                      <i class="ph-caret-down-bold"></i>
+                    </button>
+                  </div>
+                </div>
+                              <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo">
+                      <img src="https://assets.codepen.io/285131/shell-logo.png" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">Shell</h4>
+                      <a href="#" class="list-item-company-hashtag">#Gas</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value"> -$16.50
+                      </span>
+                      <time class="list-item-transaction-time" datetime="10:00">10:00am</time>
+                    </div>
+                    <button class="list-item-transaction-action">
+                      <i class="ph-caret-down-bold"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="summary">
+                <h3 class="summary-date">Sept 08, 2020</h3>
+                <span class="summary-amount">+$102.76</span>
+              </div>
+              <div class="list">
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo">
+                      <img src="https://assets.codepen.io/285131/mike.jpg" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">E-Transfer from Mike Gravelle</h4>
+                      <a href="#" class="list-item-company-hashtag">#Income</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value list-item-transaction-value--positive">
+                         +$67.00
+                      </span>
+                      <time class="list-item-transaction-time" datetime="17:00">5:00pm</time>
+                    </div>
+                    <button class="list-item-transaction-action">
+                      <i class="ph-caret-down-bold"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo">
+                      <img src="https://assets.codepen.io/285131/whole-foods-logo.png" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">Whole Foods</h4>
+                      <a href="#" class="list-item-company-hashtag">#Groceries</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value"> -$150.56
+                      </span>
+                      <time class="list-item-transaction-time" datetime="16:40">4:40pm</time>
+                    </div>
+                    <button class="list-item-transaction-action">
+                      <i class="ph-caret-down-bold"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo">
+                      <img src="https://assets.codepen.io/285131/amc-logo.png" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">AMC Theathers</h4>
+                      <a href="#" class="list-item-company-hashtag">#Entertainment</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value"> -$19.20
+                      </span>
+                      <time class="list-item-transaction-time" datetime="13:23">1:23am</time>
+                    </div>
+                    <button class="list-item-transaction-action">
+                      <i class="ph-caret-down-bold"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer class="overview-footer">
+              <a href="#" class="link">View all transactions<i class="ph-arrow-right-bold"></i></a>
+            </footer>
+          </section>
+          <section class="overview">
+            <header class="overview-header">
+              <h2 class="overview-header-title">Upcoming payments<span>3</span></h2>
+              <a href="#" class="link">View all</a>
+            </header>
+            <div class="overview-body">
+              <div class="list">
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo list-item-company-logo--square">
+                      <img src="https://assets.codepen.io/285131/netflix-logo.png" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">Netflix</h4>
+                      <a href="#" class="list-item-company-hashtag">#Entertainment</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value">
+                        <i class="ph-arrows-clockwise-bold"></i>-$7.99
+                      </span>
+                      <time class="list-item-transaction-time" datetime="2020-09-23T16:00:00">September 23, 2020 at 4:00pm</time>
+                    </div>
+                    <button class="list-item-transaction-action">
+                      <i class="ph-caret-down-bold"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo list-item-company-logo--square">
+                      <img src="https://assets.codepen.io/285131/apple-music.png" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">Apple Music</h4>
+                      <a href="#" class="list-item-company-hashtag">#Music</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value"><i class="ph-arrows-clockwise-bold"></i> -$9.99
+                      </span>
+                      <time class="list-item-transaction-time" datetime="2020-09-26T17:00:00">September 26, 2020 at 5:00pm</time>
+                    </div>
+                    <button class="list-item-transaction-action">
+                      <i class="ph-caret-down-bold"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="list-item">
+                  <div class="list-item-company">
+                    <figure class="list-item-company-logo list-item-company-logo--square">
+                      <img src="https://assets.codepen.io/285131/aws-logo.png" />
+                    </figure>
+                    <div class="list-item-company-info">
+                      <h4 class="list-item-company-name">Amazon AWS</h4>
+                      <a href="#" class="list-item-company-hashtag">#Hosting</a>
+                    </div>
+                  </div>
+                  <div class="list-item-transaction">
+                    <div class="list-item-transaction-values">
+                      <span class="list-item-transaction-value"><i class="ph-arrows-clockwise-bold"></i> -$180.50
+                      </span>
+                      <time class="list-item-transaction-time" datetime="2020-09-27T21:00:00">September 27, 2020 at 9:00pm</time>
+                    </div>
+                    <button class="list-item-transaction-action">
+                      <i class="ph-caret-down-bold"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          
+
+               Mainbar end -->
+
+
+               <div class="col-2">
+
+              
+
+
+               </div>
+
+               
+            </div>
+          </div> 
+
+            <footer class="overview-footer">
+              <a href="#" class="link">View all upcoming payments<i class="ph-arrow-right-bold"></i></a>
+            </footer>
+          </section>
+        </div>
+      </div>
+  
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  
+</body>
+</html>
+
+
+
