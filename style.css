@@ -387,7 +387,9 @@ h1.header-logo {
 
 .list-item-transaction {
 	display: flex;
-	align-items: center;
+    align-items: center;
+    position: relative;
+    margin-right: -14cm;
 }
 
 .list-item-transaction-values {
